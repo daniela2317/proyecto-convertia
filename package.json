@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-convertia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve -s src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniela2317/convertia-repository.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniela2317/convertia-repository/issues"
+  },
+  "homepage": "https://github.com/daniela2317/convertia-repository#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "serve": "^14.1.2"
+  }
+}
