@@ -24,9 +24,13 @@ window.onpopstate = () => {
 };
 
 const component = routes[window.location.pathname];
+rootDiv.appendChild(component());
 
 
-
-
-
+window.onload = () => {
+  while (rootDiv.firstChild) {
+    rootDiv.removeChild(rootDiv.firstChild);
+  }
+  rootDiv.appendChild(component());
+}; 
 
