@@ -6,8 +6,8 @@ export const PackagesTwo = () => {
     const channelsOne = document.createElement('p');
         channelsOne.textContent = 'Hasta 50 Mbps de velocidad+ Llamadas Ilimitadas';
     const wantBtnOne = document.createElement('button');
-        wantBtn.classList.add('btn-want');
-        wantBtn.textContent = 'LO QUIERO';
+        wantBtnOne.classList.add('btn-want');
+        wantBtnOne.textContent = 'LO QUIERO';
 
     const packTwo = document.createElement('div');
     const channelsTwo = document.createElement('p');

@@ -4,12 +4,13 @@ export const Packages = () => {
 
     const packOne = document.createElement('div');
     const imgOne = document.createElement('img');
-        imgOne.src = '../assets/Imagen 1.png';
+        imgOne.src = '../assets/Imagen1.png';
+        imgOne.alt = "Telephone";
     const channelsOne = document.createElement('p');
         channelsOne.textContent = '+ 80 Canales + 50 Canales HD';
     const wantBtnOne = document.createElement('button');
-        wantBtn.classList.add('btn-want');
-        wantBtn.textContent = 'LO QUIERO';
+        wantBtnOne.classList.add('btn-want');
+        wantBtnOne.textContent = 'LO QUIERO';
 
     const packTwo = document.createElement('div');
     const imgTwo = document.createElement('img');
@@ -82,15 +83,15 @@ export const Packages = () => {
         wantBtnEight.classList.add('btn-want');
         wantBtnEight.textContent = 'LO QUIERO';
 
-        packOne.append(imgOne, channelsOne, wantBtnOne);
-        packTwo.append(imgTwo, channelsTwo, wantBtnTwo);
-        packThree.append(imgThree, channelsThree, wantBtnThree);
-        packFour.append(imgFour, channelsFour, wantBtnFour);
-        packXviewOne.append(xviewOne, imgXviewOne, xviewChanlsOne, wantBtnFive);
-        packXviewTwo.append(xviewTwo, imgXviewTwo, xviewChanlsTwo, wantBtnSix);
-        packXviewThree.append(xviewThree, imgXviewThree, xviewChanlsThree, wantBtnSeven);
-        packXviewFour.append(xviewFour, imgXviewFour, xviewChanlsFour, wantBtnEight);
+        packOne.append(imgOne, channelsOne, wantBtnOne),
+        packTwo.append(imgTwo, channelsTwo, wantBtnTwo),
+        packThree.append(imgThree, channelsThree, wantBtnThree),
+        packFour.append(imgFour, channelsFour, wantBtnFour),
+        packXviewOne.append(xviewOne, imgXviewOne, xviewChanlsOne, wantBtnFive),
+        packXviewTwo.append(xviewTwo, imgXviewTwo, xviewChanlsTwo, wantBtnSix),
+        packXviewThree.append(xviewThree, imgXviewThree, xviewChanlsThree, wantBtnSeven),
+        packXviewFour.append(xviewFour, imgXviewFour, xviewChanlsFour, wantBtnEight),
 
         packagesDiv.append(packOne, packTwo, packThree, packFour, packXviewOne, packXviewTwo, packXviewThree, packXviewFour);
         return packagesDiv;
-}
+};
