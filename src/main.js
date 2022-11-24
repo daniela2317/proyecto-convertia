@@ -4,7 +4,7 @@ import { Contrata } from "./components/Contrata.js";
 const rootDiv = document.getElementById('root');
 
 const routes = {
-    '/home': Home,
+    '/': Home,
     '/contrata-hoy' : Contrata,
 };
 

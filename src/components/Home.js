@@ -5,35 +5,54 @@ export const Home = () => {
     homeDiv.classList.add('home-div');
 
     const navBar = document.createElement('nav');
+        navBar.className = 'container';
+        navBar.classList.add('nav-bar');
     const phone = document.createElement('img');
+        phone.className = 'col-sm';
         phone.src = '../assets/phone.png';
-        phone.alt = 'phone';
     const logo = document.createElement('img');
+        logo.className = 'col-sm';
         logo.src = '../assets/megacable.png';
 
+    const bodyDiv = document.createElement('div');
+        bodyDiv.className = 'd-flex align-items-stretch';
+
     const firstHome = document.createElement('div');
+        firstHome.classList.add('home-div-left');
     const fisrtImg = document.createElement('img');
+        fisrtImg.classList.add('img-fluid');
         fisrtImg.src = '../assets/brooke-cagle-g1Kr4Ozfoac-unsplash.png';
-        fisrtImg.classList.add('home-cont-img');
     const legend = document.createElement('h1');
-        legend.textContent = 'INIGUALABLE'
+        legend.className = 'p-3 mb-2 bg-white text-dark';
+        legend.textContent = 'INIGUALABLE';
+    const legendTwo = document.createElement('h1');
+        legendTwo.className = 'p-3 mb-2 bg-white text-dark';
+        legendTwo.textContent = 'INCOMPARABLE';
+    const legendThree = document.createElement('h1');
+        legendThree.className = 'p-3 mb-2 bg-white text-dark';
+        legendThree.textContent = 'INCREÍBLE';
     const btnSign = document.createElement('button');
-        btnSign.textContent = 'CONTRATA HOY'
+        btnSign.className = 'p-3 mb-2 bg-primary text-white';
+        btnSign.textContent = 'CONTRATA HOY';
     
         btnSign.addEventListener('click', () => {
             onNavigate('/contrata-hoy');
         })
 
     const secondHome = document.createElement('div');
+        secondHome.classList.add('home-div-right');
     const secondImg = document.createElement('img');
+        secondImg.classList.add('img-fluid');
         secondImg.src = '../assets/rayul-_M6gy9oHgII-unsplash.png';
     const btnClients = document.createElement('button');
+        btnClients.className = 'text-warning';
         btnClients.textContent = 'ERES CLIENTE Y NECESITAS AYUDA';
 
     navBar.append(phone, logo);
-    firstHome.append(fisrtImg, legend, btnSign);
+    firstHome.append(fisrtImg, legend, legendTwo, legendThree, btnSign);
     secondHome.append(secondImg, btnClients);
-    homeDiv.append(navBar, firstHome, secondHome);
+    bodyDiv.append(firstHome, secondHome);
+    homeDiv.append(navBar, bodyDiv);
 
     return homeDiv;
 };
