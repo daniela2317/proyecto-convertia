@@ -5,6 +5,7 @@ export const Packages = () => {
 
     const packOne = document.createElement('div');
         packOne.className = 'd-flex justify-content-around';
+        packOne.classList.add('packages');
     const imgOne = document.createElement('img');
         imgOne.src = '../assets/Imagen1.png';
     const channelsOne = document.createElement('p');
@@ -15,6 +16,7 @@ export const Packages = () => {
 
     const packTwo = document.createElement('div');
         packTwo.className = 'd-flex justify-content-around';
+        packTwo.classList.add('packages');
     const imgTwo = document.createElement('img');
         imgTwo.src = '../assets/Imagen 2.png';
     const channelsTwo = document.createElement('p');
@@ -25,6 +27,7 @@ export const Packages = () => {
 
     const packThree = document.createElement('div');
         packThree.className = 'd-flex justify-content-around';
+        packThree.classList.add('packages');
     const imgThree = document.createElement('img');
         imgThree.src = '../assets/Imagen 3.png';
     const channelsThree = document.createElement('p');
@@ -35,6 +38,7 @@ export const Packages = () => {
 
     const packFour = document.createElement('div');
         packFour.className = 'd-flex justify-content-around';
+        packFour.classList.add('packages');
     const imgFour = document.createElement('img');
         imgFour.src = '../assets/Imagen 4.png';
     const channelsFour = document.createElement('p');
@@ -45,6 +49,7 @@ export const Packages = () => {
 
     const packXviewOne = document.createElement('div');
         packXviewOne.className = 'd-flex justify-content-around';
+        packXviewOne.classList.add('packages');
     const xviewOne = document.createElement('p');
         xviewOne.textContent = 'XVIEW TOTAL 200';
     const imgXviewOne = document.createElement('img');
@@ -57,6 +62,7 @@ export const Packages = () => {
 
     const packXviewTwo = document.createElement('div');
         packXviewTwo.className = 'd-flex justify-content-around';
+        packXviewTwo.classList.add('packages');
     const xviewTwo = document.createElement('p');
         xviewTwo.textContent = 'XVIEW TOTAL 350';
     const imgXviewTwo = document.createElement('img');
@@ -69,6 +75,7 @@ export const Packages = () => {
 
     const packXviewThree = document.createElement('div');
         packXviewThree.className = 'd-flex justify-content-around';
+        packXviewThree.classList.add('packages');
     const xviewThree = document.createElement('p');
         xviewThree.textContent = 'XVIEW TOTAL 500';
     const imgXviewThree = document.createElement('img');
@@ -81,6 +88,7 @@ export const Packages = () => {
 
     const packXviewFour = document.createElement('div');
         packXviewFour.className = 'd-flex justify-content-around';
+        packXviewFour.classList.add('packages');
     const xviewFour = document.createElement('p');
         xviewFour.textContent = 'XVIEW TOTAL 1 GB';
     const imgXviewFour = document.createElement('img');

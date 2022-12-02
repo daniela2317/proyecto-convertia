@@ -12,7 +12,7 @@ export const Contrata = () => {
     const mainDiv = document.createElement('div');
         mainDiv.className = 'align-baseline';
     const backImg = document.createElement('img');
-        backImg.className = 'img-fluid';
+        backImg.className = 'bg-image';
         backImg.src = '../assets/drew-graham-PVyhz0wmHdo-unsplash.png';
     const internet = document.createElement('h1');
         internet.classList.add('internet');
@@ -36,13 +36,14 @@ export const Contrata = () => {
         boxMain.textContent='¡Contrata ahora!'
     const boxTitle = document.createElement('p');
         boxTitle.className = 'p-2';
+        boxTitle.classList.add('leave-your-number');
         boxTitle.textContent='Déjanos tu número y te llamamos en segundos';
     const boxNumber = document.createElement('label');
         boxNumber.className = 'p-2';
         boxNumber.textContent='Si es celular sin el 044 o 045.'
     const boxInput = document.createElement('input');
         boxInput.className = 'p-2';
-        boxInput.type = "text"; boxInput.value = "Tu teléfono";
+        boxInput.type = "text"; boxInput.placeholder = "Tu teléfono";
     const boxCheck = document.createElement('input');
         boxCheck.className = 'p-2';
         boxCheck.className = 'form-check-input';

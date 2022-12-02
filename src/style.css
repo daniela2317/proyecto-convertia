@@ -10,13 +10,29 @@
     z-index: -1;        
 }
 
+.img-fluid {
+    position: absolute;
+    z-index: -1;
+}
+
+.legend {
+    font: normal 900 60px/72px Roboto;
+    background-color: white;
+    z-index: 1;
+    letter-spacing: 0px;
+    color: #0063BC;
+    opacity: 1;
+    
+}
+
 .p-3 mb-2 bg-primary text-white {
     width: 320px;
     height: 45px;
     background: #0063BC 0% 0% no-repeat padding-box;
     color: white;
     border: 3px solid #FFFFFF;
-    border-radius: 4px;     
+    border-radius: 4px;  
+    z-index: 0;   
 }
 
 .text-warning {
@@ -26,7 +42,6 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 4px solid #FF6A00;
     border-radius: 4px;
-    position: absolute;
     z-index: 0;
 }
 
@@ -43,12 +58,29 @@
     z-index: 1;
 }
 
+.leave-your-number {
+    color: #0063BC;
+    font-family: Arial, Bold;
+}
+
 .channels {
     font-family: normal normal bold 18px/22px Roboto;;
     color: #434343;
     letter-spacing: 0px;
 }
 
+.packages {
+    border-radius: 4x;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-shadow: 0px 0px 12px #00000029;
+    padding: 15px 0px 15px 0px;
+    margin: 20px;
+}
+
+.bg-image {
+    background-image: url('/src/assets/drew-graham-PVyhz0wmHdo-unsplash.png');
+}
 
 
 /*.d-flex {
